@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeroBirthdayComponent1 } from './hero-birthday1.component';
 import { HeroBirthdayComponent2 } from './hero-birthday2.component';
+import { PowerBoosterComponent } from './power-booster.component';
+import { ExponentialStrengthPipe } from './exponential-strength.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroBirthdayComponent1,
-    HeroBirthdayComponent2
+    HeroBirthdayComponent2,
+    PowerBoosterComponent,
+    ExponentialStrengthPipe
   ],
   imports: [
     BrowserModule
