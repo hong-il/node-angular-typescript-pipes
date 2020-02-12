@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'node-angular-typescript-pipes';
+  birthday = new Date(1993, 0, 17);
 }

@@ -20,3 +20,21 @@
 <a id="happy-birthday2"></a>
 <h2>Hero Birthday v2</h2>
 <app-hero-birthday2></app-hero-birthday2>
+
+<hr>
+<a id="birthday-pipe-chaining"></a>
+<h2>Birthday Pipe Chaining</h2>
+<p>
+  The chained hero's birthday is
+  {{ birthday | date | uppercase }}
+</p>
+
+<p>
+  The chained hero's birthday is
+  {{ birthday | date:'shortDate' | uppercase }}
+</p>
+
+<p>
+  The chained hero's birthday is
+  {{ birthday | date:'fullDate' | uppercase }}
+</p>
