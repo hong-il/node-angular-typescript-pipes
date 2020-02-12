@@ -1,8 +1,22 @@
 <a id="toc"></a>
 <h1>Pipes</h1>
 <a href="#happy-birthday1">Happy Birthday v1</a><br>
+<a href="#birthday-date-pipe">Birthday DatePipe</a><br>
+<a href="#happy-birthday2">Happy Birthday v2</a><br>
 
 <hr>
 <a id="happy-birthday1"></a>
 <h2>Hero Birthday v1</h2>
 <app-hero-birthday1></app-hero-birthday1>
+
+<hr>
+<a id="birthday-date-pipe"></a>
+<h2>Birthday DatePipe</h2>
+<p>The hero's birthday is {{ birthday | date }}</p>
+
+<p>The hero's birthday is {{ birthday | date:"MM/dd/yy" }} </p>
+
+<hr>
+<a id="happy-birthday2"></a>
+<h2>Hero Birthday v2</h2>
+<app-hero-birthday2></app-hero-birthday2>
