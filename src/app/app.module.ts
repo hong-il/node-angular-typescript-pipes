@@ -10,6 +10,7 @@ import { PowerBoostCalculatorComponent } from './power-boost-calculator.componen
 import { ExponentialStrengthPipe } from './exponential-strength.pipe';
 import { FlyingHeroesComponent, FlyingHeroesImpureComponent } from './flying-heroes.component';
 import { FlyingHeroesPipe, FlyingHeroesImpurePipe } from './flying-heroes.pipe';
+import { HeroAsyncMessageComponent } from './hero-async-message.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FlyingHeroesPipe, FlyingHeroesImpurePipe } from './flying-heroes.pipe';
     FlyingHeroesComponent,
     FlyingHeroesImpureComponent,
     FlyingHeroesPipe,
-    FlyingHeroesImpurePipe
+    FlyingHeroesImpurePipe,
+    HeroAsyncMessageComponent
   ],
   imports: [
     BrowserModule,
