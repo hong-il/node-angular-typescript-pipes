@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -11,6 +12,8 @@ import { ExponentialStrengthPipe } from './exponential-strength.pipe';
 import { FlyingHeroesComponent, FlyingHeroesImpureComponent } from './flying-heroes.component';
 import { FlyingHeroesPipe, FlyingHeroesImpurePipe } from './flying-heroes.pipe';
 import { HeroAsyncMessageComponent } from './hero-async-message.component';
+import { FetchJsonPipe } from './fetch-json.pipe';
+import { HeroListComponent } from './hero-list.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { HeroAsyncMessageComponent } from './hero-async-message.component';
     FlyingHeroesImpureComponent,
     FlyingHeroesPipe,
     FlyingHeroesImpurePipe,
-    HeroAsyncMessageComponent
+    HeroAsyncMessageComponent,
+    FetchJsonPipe,
+    HeroListComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
