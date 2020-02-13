@@ -8,3 +8,9 @@ export class FlyingHeroesPipe implements PipeTransform {
     return allHeroes.filter(hero => hero.canFly);
   }
 }
+
+@Pipe({
+  name: 'flyingHeroesImpure',
+  pure: false
+})
+export class FlyingHeroesImpurePipe extends FlyingHeroesPipe {}

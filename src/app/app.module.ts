@@ -8,8 +8,8 @@ import { HeroBirthdayComponent2 } from './hero-birthday2.component';
 import { PowerBoosterComponent } from './power-booster.component';
 import { PowerBoostCalculatorComponent } from './power-boost-calculator.component';
 import { ExponentialStrengthPipe } from './exponential-strength.pipe';
-import { FlyingHeroesComponent } from './flying-heroes.component';
-import { FlyingHeroesPipe } from './flying-heroes.pipe';
+import { FlyingHeroesComponent, FlyingHeroesImpureComponent } from './flying-heroes.component';
+import { FlyingHeroesPipe, FlyingHeroesImpurePipe } from './flying-heroes.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,9 @@ import { FlyingHeroesPipe } from './flying-heroes.pipe';
     PowerBoostCalculatorComponent,
     ExponentialStrengthPipe,
     FlyingHeroesComponent,
-    FlyingHeroesPipe
+    FlyingHeroesImpureComponent,
+    FlyingHeroesPipe,
+    FlyingHeroesImpurePipe
   ],
   imports: [
     BrowserModule,

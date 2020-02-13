@@ -13,7 +13,7 @@ New hero:
 
 <h4>Heroes who fly (piped)</h4>
 <div id="flyers">
-  <div *ngFor="let hero of (heroes | flyingHeroes)">
+  <div *ngFor="let hero of (heroes | flyingHeroesImpure)">
     {{hero.name}}
   </div>
 </div>
